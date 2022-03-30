@@ -3,8 +3,8 @@ pipeline {
 		any
 	}
 	stages{
-		stage('echo stage'){
-		step{
+		stage('echo-stage'){
+		steps{
 		 echo "Hello " 
 		}
 		}
