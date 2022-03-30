@@ -4,7 +4,7 @@ pipeline {
         stages{
                 stage('echo-stage'){
                 steps{
-                 echo "Hello "
+                 echo "Hello hello"
                 }
                 }
                 stage('cat READ'){
